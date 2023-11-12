@@ -1,0 +1,48 @@
+.feature-icon-small {
+  width: 2.5em;
+  height: 2.5em;
+}
+
+.width {
+  height: 100%;
+  z-index: -1;
+}
+
+nav {
+  background-color: #0099ff;
+  z-index: 999;
+}
+
+#home {
+  background-image: url(/src/svg/wave.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.pb-6 {
+  padding-bottom: 100px;
+}
+
+#contact {
+  padding-top: 50px;
+}
+
+footer {
+  background-color: rgb(235, 235, 235);
+  border-top: 1px solid rgb(145, 142, 142)
+}
+
+#about {
+  background-image: url(/src/svg/wave2.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+}
+
+@media (max-width: 800px){
+  #home {
+    background-size: cover;
+    background-image: url(/src/svg/wave3.svg);
+  }
+
+  
+}
